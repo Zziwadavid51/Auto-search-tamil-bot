@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ] 
  then 
    echo "Cloning main Repository" 
-   git clone https://github.com/Zziwadavid51/my-lady-princess.git /my-lady-princess
+   git clone https://github.com/Zziwadavid51/Auto-search-tamil-bot.git /Auto-search-tamil-bot 
  else 
    echo "Cloning Custom Repo from $UPSTREAM_REPO " 
    git clone $UPSTREAM_REPO /Auto-search-tamil-bot 
